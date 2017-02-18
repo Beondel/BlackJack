@@ -58,54 +58,54 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="nqK-PR-9Iy" userLabel="playerStackView">
-                                        <rect key="frame" x="35.5" y="142" width="272" height="121.5"/>
+                                        <rect key="frame" x="35" y="142" width="273" height="121.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="oAH-zA-A7l" userLabel="top row">
-                                                <rect key="frame" x="0.0" y="0.0" width="272" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="273" height="58"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="FMP-fb-b0f">
-                                                        <rect key="frame" x="0.0" y="0.0" width="41" height="58"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="58"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="FMP-fb-b0f" secondAttribute="height" multiplier="12:17" id="rS1-0V-9KE"/>
                                                         </constraints>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="VDI-Bo-vGv">
-                                                        <rect key="frame" x="46" y="0.0" width="41.5" height="58"/>
+                                                        <rect key="frame" x="46.5" y="0.0" width="41" height="58"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="KkQ-Pb-wTM">
-                                                        <rect key="frame" x="92.5" y="0.0" width="41" height="58"/>
+                                                        <rect key="frame" x="92.5" y="0.0" width="41.5" height="58"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="6wL-kb-wET">
-                                                        <rect key="frame" x="138.5" y="0.0" width="41" height="58"/>
+                                                        <rect key="frame" x="139" y="0.0" width="41.5" height="58"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="x3u-Sm-fpi">
-                                                        <rect key="frame" x="184.5" y="0.0" width="41.5" height="58"/>
+                                                        <rect key="frame" x="185.5" y="0.0" width="41" height="58"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="zk4-CS-HBk">
-                                                        <rect key="frame" x="231" y="0.0" width="41" height="58"/>
+                                                        <rect key="frame" x="231.5" y="0.0" width="41.5" height="58"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="AuQ-jL-wD4" userLabel="bottom row">
-                                                <rect key="frame" x="0.0" y="63" width="272" height="58.5"/>
+                                                <rect key="frame" x="0.0" y="63" width="273" height="58.5"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="71D-Vb-tky">
-                                                        <rect key="frame" x="0.0" y="0.0" width="41" height="58.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="41.5" height="58.5"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="e1Z-Wv-EKs">
-                                                        <rect key="frame" x="46" y="0.0" width="41.5" height="58.5"/>
+                                                        <rect key="frame" x="46.5" y="0.0" width="41" height="58.5"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="Nhy-kA-L9f">
-                                                        <rect key="frame" x="92.5" y="0.0" width="41" height="58.5"/>
+                                                        <rect key="frame" x="92.5" y="0.0" width="41.5" height="58.5"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="pHP-vH-dPB">
-                                                        <rect key="frame" x="138.5" y="0.0" width="41" height="58.5"/>
+                                                        <rect key="frame" x="139" y="0.0" width="41.5" height="58.5"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="GzS-t6-vHO">
-                                                        <rect key="frame" x="184.5" y="0.0" width="41.5" height="58.5"/>
+                                                        <rect key="frame" x="185.5" y="0.0" width="41" height="58.5"/>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="t0x-yg-q0d">
-                                                        <rect key="frame" x="231" y="0.0" width="41" height="58.5"/>
+                                                        <rect key="frame" x="231.5" y="0.0" width="41.5" height="58.5"/>
                                                     </imageView>
                                                 </subviews>
                                             </stackView>
@@ -120,8 +120,8 @@
                                         <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
                                         <state key="normal" title="Button" image="Parkland" backgroundImage="Parkland"/>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f21-zb-RYr" userLabel="result">
-                                        <rect key="frame" x="150.5" y="425.5" width="42" height="121.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f21-zb-RYr" userLabel="result">
+                                        <rect key="frame" x="0.0" y="425.5" width="343" height="121.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
