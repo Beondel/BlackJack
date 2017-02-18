@@ -29,11 +29,36 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FMr-Vn-cN0" userLabel="MainStackView">
                                 <rect key="frame" x="16" y="120" width="343" height="547"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mcd-hY-i9y" userLabel="dealerStackView">
-                                        <rect key="frame" x="0.0" y="0.0" width="343" height="144"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mcd-hY-i9y" userLabel="dealerStackView">
+                                        <rect key="frame" x="41.5" y="0.0" width="260" height="170"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="jMJ-Sm-u92">
+                                                <rect key="frame" x="0.0" y="0.0" width="120" height="170"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="jMJ-Sm-u92" secondAttribute="height" multiplier="12:17" id="IRV-u5-Ika"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="D4W-Eg-lez" userLabel="dealerInfo">
+                                                <rect key="frame" x="140" y="0.0" width="120" height="170"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dealer Sum:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIb-Xh-jZI">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="85"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dC3-M2-iQE" userLabel="score">
+                                                        <rect key="frame" x="0.0" y="85" width="120" height="85"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h5Q-tt-s3A">
-                                        <rect key="frame" x="100" y="164" width="143" height="263"/>
+                                        <rect key="frame" x="100" y="190" width="143" height="237"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="h5Q-tt-s3A" secondAttribute="height" multiplier="1:1" priority="250" id="6GR-jE-lOu"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" secondItem="h5Q-tt-s3A" secondAttribute="width" multiplier="1:1" priority="250" id="NXz-h5-r68"/>
@@ -79,5 +104,6 @@
     <resources>
         <image name="BLACKJACK" width="794" height="1123"/>
         <image name="Parkland" width="500" height="500"/>
+        <image name="back" width="120" height="170"/>
     </resources>
 </document>
