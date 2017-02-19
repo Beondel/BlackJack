@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -135,6 +135,15 @@
                                     <constraint firstItem="h5Q-tt-s3A" firstAttribute="leading" secondItem="FMr-Vn-cN0" secondAttribute="leading" constant="100" id="ybp-RC-zti"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqr-kX-DUy">
+                                <rect key="frame" x="26" y="30" width="31" height="30"/>
+                                <state key="normal" title="New">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="su0-Y3-FoG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -145,6 +154,9 @@
                             <constraint firstItem="yDf-yn-nG1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="brG-Fn-9LY"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FMr-Vn-cN0" secondAttribute="bottom" id="cUS-9z-iJ5"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yDf-yn-nG1" secondAttribute="bottom" id="cmI-Kd-7oa"/>
+                            <constraint firstItem="Iqr-kX-DUy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="fB0-o3-0SF"/>
+                            <constraint firstItem="Iqr-kX-DUy" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="gjd-lu-9lr"/>
+                            <constraint firstItem="Iqr-kX-DUy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="iVV-nB-bN0"/>
                             <constraint firstAttribute="trailing" secondItem="yDf-yn-nG1" secondAttribute="trailing" id="z1R-tN-4Ys"/>
                         </constraints>
                     </view>

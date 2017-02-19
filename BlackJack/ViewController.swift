@@ -102,5 +102,25 @@ class ViewController: UIViewController {
             result.text = "You Win!"
         }
     }
+    @IBAction func resetPressed(_ sender: Any) {
+        card1.image = UIImage(named: "back")
+        card2.image = UIImage(named: "back")
+        card3.image = UIImage(named: "back")
+        card4.image = UIImage(named: "back")
+        card5.image = UIImage(named: "back")
+        card6.image = UIImage(named: "back")
+        card7.image = UIImage(named: "back")
+        card8.image = UIImage(named: "back")
+        card9.image = UIImage(named: "back")
+        card10.image = UIImage(named: "back")
+        card11.image = UIImage(named: "back")
+        card12.image = UIImage(named: "back")
+        cpuCard.image = UIImage(named: "back")
+        cardCount = 0
+        playerScore = 0
+        cpuScore = 0
+        dealerScoreText.text = "\(cpuScore)"
+        result.text = ""
+    }
 }
 
